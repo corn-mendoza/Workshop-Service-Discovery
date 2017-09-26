@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCClient", "WebMVCClient\WebMVCClient.csproj", "{1E6CF13D-687C-4A66-9E22-82B52C4B98BB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED404F18-4A3F-40F1-9868-BF0E0B03A251}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCClient", "WebMVCClient\WebMVCClient.csproj", "{57C5FE23-1D26-4957-BE58-B687BFA5CB35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E6CF13D-687C-4A66-9E22-82B52C4B98BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E6CF13D-687C-4A66-9E22-82B52C4B98BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E6CF13D-687C-4A66-9E22-82B52C4B98BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E6CF13D-687C-4A66-9E22-82B52C4B98BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C5FE23-1D26-4957-BE58-B687BFA5CB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C5FE23-1D26-4957-BE58-B687BFA5CB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C5FE23-1D26-4957-BE58-B687BFA5CB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C5FE23-1D26-4957-BE58-B687BFA5CB35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {916439AC-104D-4C8D-8F38-D63B004B8846}
+		SolutionGuid = {E214145F-E1B9-4EA2-9182-DBFB6D82BF73}
 	EndGlobalSection
 EndGlobal
